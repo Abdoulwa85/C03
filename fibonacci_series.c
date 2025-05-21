@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int limit, a = 0, b = 1, next;
+    int limit;
+    int a = 0, b = 1, next;
+
     scanf("%d", &limit);
 
     while (a <= limit) {
@@ -11,6 +13,5 @@ int main() {
         b = next;
     }
 
-    printf("\n");
     return 0;
 }
